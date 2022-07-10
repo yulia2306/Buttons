@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  </html>
+  <style> 
+  .hello {
+    background-color: bisque;
+    cursor: pointer;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    height: 32px;
+    width: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(160, 89, 236);
+    border-radius: 8px;
+    transition: opacity 0.15s, background-color 0.2s, color 0.2s, box-shadow 0.2s;
+ 
+  }
+
+  .hello:hover {
+    background-color: rgb(160, 89, 236);
+    color: bisque;
+    border-width: 1.5px;
+    border-color: bisque;
+    border-style: solid;
+    opacity: 0.7;
+    box-shadow: 4px 9px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  .hello:active {
+    background-color: blueviolet;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: bisque
+  }
+  .subscribe-button {
+    background-color: rgb(221, 32, 32);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+
+  .subscribe-button:hover {
+    opacity: 0.8;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.5;
+  }
+
+  .join-button {  
+background-color: white;
+border-color: rgb(6, 95, 212);
+border-style: solid;
+border-width: 1px;
+color: rgb(6, 95, 212);
+height: 36px;
+width: 62px;
+border-radius: 2px;
+cursor: pointer;
+font-weight: bold;
+margin-right: 8px;
+transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+background-color: rgb(6, 95, 212);
+color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+color: white;
+background-color: rgb(29, 155, 240);
+border-radius: 18px;
+height: 38px;
+width: 74px;
+font-weight: bold;
+border: none;
+font-size: 15px;
+margin-top: 8px;
+margin-right: 8px;
+cursor: pointer;
+transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.uber-button {
+  color: white;
+  background-color: black;
+  height: 36px;
+  width: 120px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: opacity 0.6s;
+}
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  margin-top: 8px;
+  border: none;
+  border-radius: 18px;
+  transition: background-color 0.6s;
+}
+
+.amazon-button:hover {
+  background-color: rgb(243, 211, 53);
+}
+.github-button {
+  background-color: rgb(46, 164, 79);
+  height: 32px;
+  width: 90px;
+  cursor: pointer;
+  margin-top: 8px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: box-shadow 0.2s;
+}
+
+.github-button:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-button {
+  margin-top: 8px;
+  margin-right: 8px;
+  color: white;
+  background-color: rgb(121, 82, 179);
+  height: 32px;
+  width: 90px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  transition: background-color 0.4s;
+}
+
+.bootstrap-button:hover {
+  background-color: rgb(101, 69, 150);
+}
+
+.bootstrap-download-button {
+  color: rgb(108, 117, 125);
+  height: 31px;
+  width: 90px;
+  cursor: pointer;
+  border-color: rgb(108, 117, 125);
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  transition: background-color 0.5s, color 0.5s;
+
+}
+
+.bootstrap-download-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.linkedin-One-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 30px;
+  width: 200px;
+  cursor: pointer;
+  margin-top: 8px;
+  border: none;
+  border-radius: 18px;
+  transition: background-color 0.5s;
+  font-weight: bold;
+  transition: background-color 0.6s;
+}
+
+.linkedin-One-button:hover {
+  background-color: rgb(13, 87, 161);
+}
+
+.linkedin-Two-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  margin-left: 8px;
+  border: none;
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(10, 102, 194);
+  font-weight: bold;
+  transition: background-color 0.6s border-width 0.6s;
+}
+
+.linkedin-Two-button:hover {
+  background-color: rgba(87, 168, 248, 0.425);
+  border-width: 1.5px;
+}
+
+.back-button {
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+  
+
+border: none;
+border-radius: 18px;
+border-style: solid;
+border-width: 1px;
+border-color: rgb(10, 102, 194);
+background: rgba(59,173,227,1);
+background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+ 
+}
+
+  .back-button:hover {
+    background: rgba(59,173,227,1);
+    background: linear-gradient(45deg, rgb(77, 192, 245) 0%, rgb(108, 131, 247) 25%, rgb(178, 91, 209) 51%, rgb(248, 90, 148) 100%);
+    transform: translateX(-20px);
+    transition: transform 400ms ease-in;
+  }
+
+  .search-result {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 18px;
+    border: none;
+    color: black;
+    
+  }
+
+  .next-button {
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+
+  border: none;
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(10, 102, 194);
+  background: rgba(59,173,227,1);
+  background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+  }
+
+  .next-button:hover {
+    background: rgba(59,173,227,1);
+    background: linear-gradient(45deg, rgb(44, 150, 199) 0%, rgb(56, 79, 190) 25%, rgb(123, 46, 151) 51%, rgb(189, 27, 86) 100%);
+  
+    transform: translateX(20px);
+    transition: transform 400ms ease-in;
+  }
+
+  .stretch {
+    background-color: aquamarine;
+    color:black;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    
+    transition: padding-right 1s, padding-left 1s,
+    padding-top 1s,
+    padding-bottom 1s;
+
+  }
+
+  .stretch:hover  {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 36px;
+    padding-left: 36px;
+  }
+  </style>
+
+<button class="hello">привет</button>
+  
+<button class="hello">это мои кнопочки</button>
+
+<button class="hello">их можно потыкать, но они никуда не ведут</button>
+<br> <br>
+
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join-button">JOIN</button>
+<br>
+
+<button class="tweet-button">Tweet</button> 
+
+<button class="uber-button">Request now</button>
+<br>
+
+<button class="amazon-button">Add to Cart</button>
+
+<button class="github-button">Sign up</button> 
+<br>
+
+<button class="bootstrap-button">Get started</button>
+<button class="bootstrap-download-button">Download</button>
+<br>
+
+<button class="linkedin-One-button">Apply on company website</button>
+<button class="linkedin-Two-button">Save</button>
+<br> <br>
+
+<button class="back-button">Тыкай</button>
+<a class="search-result" href="https://www.wallpaperbetter.com/ru/hd-wallpaper-zbjyt" target="_blank">1</a>
+<a class="search-result" href="https://www.wallpaperbetter.com/ru/hd-wallpaper-wcdut" target="_blank">2</a>
+<a class="search-result" href="https://www.wallpaperbetter.com/ru/hd-wallpaper-tcyua" target="_blank">3</a>
+<a class="search-result" href="https://www.wallpaperbetter.com/ru/hd-wallpaper-wtdhm" target="_blank">4</a>
+<a class="search-result" href="https://www.wallpaperbetter.com/ru/hd-wallpaper-swldk" target="_blank">5</a>
+<button class="next-button">На циферки</button>
+
+<br> <br>
+
+<button class="stretch">Растягивается</button>
+
+</body>
